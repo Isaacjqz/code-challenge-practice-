@@ -11,7 +11,7 @@
             <h1>PINBALL WORLD</h1>
         </header>
         <div class="container">
-            <nav class="game-list">
+            <nav class="game-list" id="game-list">
                 <!-- Add the list of games here! -->
             </nav>
             
@@ -22,7 +22,7 @@
                 <h2 id="detail-title"></h2>
                 <h3>High Score: <span id="detail-high-score"></span></span></h3>
                 <form id="high-score-form">
-                    <input id="score-input" type="text" />
+                    <input id="score-input" type="number" min="0"/>
                     <input type="submit" />
                 </form>
                 </div>
